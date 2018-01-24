@@ -11,7 +11,7 @@ import me.osorio.eurobsd.utils.DateUtils;
 
 public class Day implements Parcelable {
 
-	private static final DateFormat DAY_DATE_FORMAT = DateUtils.withBelgiumTimeZone(new SimpleDateFormat("EEEE", Locale.US));
+	private static final DateFormat DAY_DATE_FORMAT = DateUtils.withRomanianTimeZone(new SimpleDateFormat("EEEE", Locale.US));
 
 	private int index;
 	private Date date;

@@ -25,10 +25,10 @@ import me.osorio.eurobsd.utils.DateUtils;
  */
 public class EventsParser extends IterableAbstractPullParser<Event> {
 
-	private final DateFormat DATE_FORMAT = DateUtils.withBelgiumTimeZone(new SimpleDateFormat("yyyy-MM-dd", Locale.US));
+	private final DateFormat DATE_FORMAT = DateUtils.withRomanianTimeZone(new SimpleDateFormat("yyyy-MM-dd", Locale.US));
 
-	// Calendar used to compute the events time, according to Belgium timezone
-	private final Calendar calendar = Calendar.getInstance(DateUtils.getBelgiumTimeZone(), Locale.US);
+	// Calendar used to compute the events time, according to Romanian timezone
+	private final Calendar calendar = Calendar.getInstance(DateUtils.getRomanianTimeZone(), Locale.US);
 
 	private Day currentDay;
 	private String currentRoom;

@@ -349,7 +349,7 @@ public class DatabaseManager {
 			return year;
 		}
 
-		Calendar cal = Calendar.getInstance(DateUtils.getBelgiumTimeZone(), Locale.US);
+		Calendar cal = Calendar.getInstance(DateUtils.getRomanianTimeZone(), Locale.US);
 
 		// Compute from cachedDays if available
 		if (cachedDays != null) {

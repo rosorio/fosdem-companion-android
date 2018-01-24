@@ -7,18 +7,18 @@ import java.util.TimeZone;
 
 public class DateUtils {
 
-	private static final TimeZone BELGIUM_TIME_ZONE = TimeZone.getTimeZone("GMT+1");
+	private static final TimeZone ROMANIA_TIME_ZONE = TimeZone.getTimeZone("GMT+2");
 
-	public static TimeZone getBelgiumTimeZone() {
-		return BELGIUM_TIME_ZONE;
+	public static TimeZone getRomanianTimeZone() {
+		return ROMANIAN_TIME_ZONE;
 	}
 
-	public static DateFormat withBelgiumTimeZone(DateFormat format) {
-		format.setTimeZone(BELGIUM_TIME_ZONE);
+	public static DateFormat withRomanianTimeZone(DateFormat format) {
+		format.setTimeZone(ROMANIAN_TIME_ZONE);
 		return format;
 	}
 
 	public static DateFormat getTimeDateFormat(Context context) {
-		return withBelgiumTimeZone(android.text.format.DateFormat.getTimeFormat(context));
+		return withRomanianTimeZone(android.text.format.DateFormat.getTimeFormat(context));
 	}
 }
