@@ -7,7 +7,7 @@ import java.util.TimeZone;
 
 public class DateUtils {
 
-	private static final TimeZone ROMANIA_TIME_ZONE = TimeZone.getTimeZone("GMT+2");
+	private static final TimeZone ROMANIAN_TIME_ZONE = TimeZone.getTimeZone("GMT+2");
 
 	public static TimeZone getRomanianTimeZone() {
 		return ROMANIAN_TIME_ZONE;
