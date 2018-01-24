@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -22,13 +22,13 @@ import android.widget.TextView;
 
 import java.text.DateFormat;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.TrackScheduleLoader;
-import be.digitalia.fosdem.model.Day;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.model.Track;
-import be.digitalia.fosdem.utils.DateUtils;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.TrackScheduleLoader;
+import me.osorio.eurobsd.model.Day;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.model.Track;
+import me.osorio.eurobsd.utils.DateUtils;
 
 public class TrackScheduleListFragment extends SmoothListFragment implements Handler.Callback, LoaderCallbacks<Cursor> {
 

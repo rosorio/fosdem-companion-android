@@ -1,10 +1,10 @@
-package be.digitalia.fosdem.loaders;
+package me.osorio.eurobsd.loaders;
 
 import android.content.Context;
 import android.database.Cursor;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.model.Day;
-import be.digitalia.fosdem.model.Track;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.model.Day;
+import me.osorio.eurobsd.model.Track;
 
 public class TrackScheduleLoader extends SimpleCursorLoader {
 

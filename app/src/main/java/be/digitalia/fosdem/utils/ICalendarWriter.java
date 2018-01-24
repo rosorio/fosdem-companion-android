@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.utils;
+package me.osorio.eurobsd.utils;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

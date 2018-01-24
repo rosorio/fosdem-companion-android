@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,14 +15,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Toast;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.fragments.EventDetailsFragment;
-import be.digitalia.fosdem.loaders.LocalCacheLoader;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.utils.NfcUtils;
-import be.digitalia.fosdem.utils.NfcUtils.CreateNfcAppDataCallback;
-import be.digitalia.fosdem.utils.ThemeUtils;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.fragments.EventDetailsFragment;
+import me.osorio.eurobsd.loaders.LocalCacheLoader;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.utils.NfcUtils;
+import me.osorio.eurobsd.utils.NfcUtils.CreateNfcAppDataCallback;
+import me.osorio.eurobsd.utils.ThemeUtils;
 
 /**
  * Displays a single event passed either as a complete Parcelable object in extras or as an id in data.

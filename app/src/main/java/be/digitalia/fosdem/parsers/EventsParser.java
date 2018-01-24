@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.parsers;
+package me.osorio.eurobsd.parsers;
 
 import android.text.TextUtils;
 
@@ -11,12 +11,12 @@ import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
 
-import be.digitalia.fosdem.model.Day;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.model.Link;
-import be.digitalia.fosdem.model.Person;
-import be.digitalia.fosdem.model.Track;
-import be.digitalia.fosdem.utils.DateUtils;
+import me.osorio.eurobsd.model.Day;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.model.Link;
+import me.osorio.eurobsd.model.Person;
+import me.osorio.eurobsd.model.Track;
+import me.osorio.eurobsd.utils.DateUtils;
 
 /**
  * Main parser for FOSDEM schedule data in pentabarf XML format.

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<be.digitalia.fosdem.widgets.PhotoViewDrawerLayout
+<me.osorio.eurobsd.widgets.PhotoViewDrawerLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/drawer_layout"
@@ -50,4 +50,4 @@
 
     <include layout="@layout/include_navigation_drawer"/>
 
-</be.digitalia.fosdem.widgets.PhotoViewDrawerLayout>
+</me.osorio.eurobsd.widgets.PhotoViewDrawerLayout>

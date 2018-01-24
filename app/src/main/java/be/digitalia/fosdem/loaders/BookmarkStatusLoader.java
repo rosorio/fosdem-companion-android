@@ -1,8 +1,8 @@
-package be.digitalia.fosdem.loaders;
+package me.osorio.eurobsd.loaders;
 
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.utils.ArrayUtils;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.utils.ArrayUtils;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;

@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.utils;
+package me.osorio.eurobsd.utils;
 
 public class ArrayUtils {
 

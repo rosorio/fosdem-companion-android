@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.adapters;
+package me.osorio.eurobsd.adapters;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -20,11 +20,11 @@ import android.view.View;
 
 import java.util.Date;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.model.Track;
-import be.digitalia.fosdem.widgets.MultiChoiceHelper;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.model.Track;
+import me.osorio.eurobsd.widgets.MultiChoiceHelper;
 
 public class BookmarksAdapter extends EventsAdapter {
 

@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.alarms;
+package me.osorio.eurobsd.alarms;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -9,9 +9,9 @@ import android.content.SharedPreferences.OnSharedPreferenceChangeListener;
 import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
 
-import be.digitalia.fosdem.activities.SettingsActivity;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.services.AlarmIntentService;
+import me.osorio.eurobsd.activities.SettingsActivity;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.services.AlarmIntentService;
 
 /**
  * This class monitors bookmarks and preferences changes to dispatch alarm update work to AlarmIntentService.

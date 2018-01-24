@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="be.digitalia.fosdem"
+    package="me.osorio.eurobsd"
     android:installLocation="auto">
 
     <uses-sdk tools:overrideLibrary="android.support.customtabs"/>

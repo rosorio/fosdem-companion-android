@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.app.Dialog;
 import android.app.SearchManager;
@@ -52,16 +52,16 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import be.digitalia.fosdem.BuildConfig;
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.api.FosdemApi;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.fragments.BookmarksListFragment;
-import be.digitalia.fosdem.fragments.LiveFragment;
-import be.digitalia.fosdem.fragments.MapFragment;
-import be.digitalia.fosdem.fragments.PersonsListFragment;
-import be.digitalia.fosdem.fragments.TracksFragment;
-import be.digitalia.fosdem.widgets.AdapterLinearLayout;
+import me.osorio.eurobsd.BuildConfig;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.api.FosdemApi;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.fragments.BookmarksListFragment;
+import me.osorio.eurobsd.fragments.LiveFragment;
+import me.osorio.eurobsd.fragments.MapFragment;
+import me.osorio.eurobsd.fragments.PersonsListFragment;
+import me.osorio.eurobsd.fragments.TracksFragment;
+import me.osorio.eurobsd.widgets.AdapterLinearLayout;
 
 /**
  * Main entry point of the application. Allows to switch between section fragments and update the database.

@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.db;
+package me.osorio.eurobsd.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

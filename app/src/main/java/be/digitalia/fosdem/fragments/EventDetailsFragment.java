@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -40,17 +40,17 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.List;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.activities.PersonInfoActivity;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.BookmarkStatusLoader;
-import be.digitalia.fosdem.loaders.LocalCacheLoader;
-import be.digitalia.fosdem.model.Building;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.model.Link;
-import be.digitalia.fosdem.model.Person;
-import be.digitalia.fosdem.utils.DateUtils;
-import be.digitalia.fosdem.utils.StringUtils;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.activities.PersonInfoActivity;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.BookmarkStatusLoader;
+import me.osorio.eurobsd.loaders.LocalCacheLoader;
+import me.osorio.eurobsd.model.Building;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.model.Link;
+import me.osorio.eurobsd.model.Person;
+import me.osorio.eurobsd.utils.DateUtils;
+import me.osorio.eurobsd.utils.StringUtils;
 
 public class EventDetailsFragment extends Fragment {
 
@@ -153,7 +153,7 @@ public class EventDetailsFragment extends Fragment {
 
 		textView = (TextView) view.findViewById(R.id.room);
 		final String roomName = event.getRoomName();
-		Spannable roomText = new SpannableString(String.format("%1$s (Building %2$s)", roomName, Building.fromRoomName(roomName)));
+		Spannable roomText = new SpannableString(String.format("%1$s (Floor %2$s)", roomName, Building.fromRoomName(roomName)));
 		final int roomImageResId = getResources().getIdentifier(StringUtils.roomNameToResourceName(roomName), "drawable", getActivity().getPackageName());
 		// If the room image exists, make the room text clickable to display it
 		if (roomImageResId != 0) {

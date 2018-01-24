@@ -1,8 +1,8 @@
-package be.digitalia.fosdem.model;
+package me.osorio.eurobsd.model;
 
-import be.digitalia.fosdem.api.FosdemUrls;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.utils.StringUtils;
+import me.osorio.eurobsd.api.FosdemUrls;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.utils.StringUtils;
 import android.os.Parcel;
 import android.os.Parcelable;
 

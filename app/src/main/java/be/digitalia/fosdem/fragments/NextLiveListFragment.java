@@ -1,8 +1,8 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.BaseLiveLoader;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.BaseLiveLoader;
 import android.content.Context;
 import android.database.Cursor;
 import android.os.Bundle;

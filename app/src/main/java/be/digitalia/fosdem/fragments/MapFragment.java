@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -17,8 +17,8 @@ import android.view.ViewGroup;
 
 import java.util.Locale;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.api.FosdemUrls;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.api.FosdemUrls;
 
 public class MapFragment extends Fragment {
 
@@ -44,9 +44,6 @@ public class MapFragment extends Fragment {
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		switch (item.getItemId()) {
-			case R.id.directions:
-				launchDirections();
-				return true;
 			case R.id.navigation:
 				launchLocalNavigation();
 				return true;

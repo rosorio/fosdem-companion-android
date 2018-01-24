@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.database.Cursor;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import be.digitalia.fosdem.adapters.EventsAdapter;
+import me.osorio.eurobsd.adapters.EventsAdapter;
 
 public abstract class BaseLiveListFragment extends RecyclerViewFragment implements LoaderCallbacks<Cursor> {
 

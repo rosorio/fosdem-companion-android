@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.widgets.ContentLoadingProgressBar;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.widgets.ContentLoadingProgressBar;
 
 /**
  * Fragment providing a RecyclerView, an empty view and a progress bar.

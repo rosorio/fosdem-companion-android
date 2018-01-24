@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.api;
+package me.osorio.eurobsd.api;
 
 import android.content.Context;
 import android.content.Intent;
@@ -7,11 +7,11 @@ import android.support.v4.content.LocalBroadcastManager;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-import be.digitalia.fosdem.BuildConfig;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.parsers.EventsParser;
-import be.digitalia.fosdem.utils.HttpUtils;
+import me.osorio.eurobsd.BuildConfig;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.parsers.EventsParser;
+import me.osorio.eurobsd.utils.HttpUtils;
 
 /**
  * Main API entry point.

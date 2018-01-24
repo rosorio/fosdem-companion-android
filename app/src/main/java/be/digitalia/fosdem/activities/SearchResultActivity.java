@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.annotation.SuppressLint;
 import android.app.SearchManager;
@@ -11,9 +11,9 @@ import android.support.v7.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.fragments.MessageDialogFragment;
-import be.digitalia.fosdem.fragments.SearchResultListFragment;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.fragments.MessageDialogFragment;
+import me.osorio.eurobsd.fragments.SearchResultListFragment;
 
 public class SearchResultActivity extends AppCompatActivity {
 

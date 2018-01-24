@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package be.digitalia.fosdem.widgets;
+package me.osorio.eurobsd.widgets;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -28,7 +28,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import be.digitalia.fosdem.R;
+import me.osorio.eurobsd.R;
 
 public class ScrimInsetsFrameLayout extends FrameLayout {
 	Drawable mInsetForeground;

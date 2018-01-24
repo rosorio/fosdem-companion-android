@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.adapters;
+package me.osorio.eurobsd.adapters;
 
 import android.database.Cursor;
 import android.support.v7.widget.RecyclerView;

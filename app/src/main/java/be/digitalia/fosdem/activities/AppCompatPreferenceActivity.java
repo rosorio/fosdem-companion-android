@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.content.res.Configuration;
 import android.os.Bundle;

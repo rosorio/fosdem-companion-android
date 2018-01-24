@@ -1,12 +1,12 @@
-package be.digitalia.fosdem.receivers;
+package me.osorio.eurobsd.receivers;
 
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.content.WakefulBroadcastReceiver;
 
-import be.digitalia.fosdem.BuildConfig;
-import be.digitalia.fosdem.alarms.FosdemAlarmManager;
-import be.digitalia.fosdem.services.AlarmIntentService;
+import me.osorio.eurobsd.BuildConfig;
+import me.osorio.eurobsd.alarms.FosdemAlarmManager;
+import me.osorio.eurobsd.services.AlarmIntentService;
 
 /**
  * Entry point for system-generated events: boot complete and alarms.

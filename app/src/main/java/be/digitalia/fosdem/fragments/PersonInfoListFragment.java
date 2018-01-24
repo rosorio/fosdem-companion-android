@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -20,11 +20,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.adapters.EventsAdapter;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.SimpleCursorLoader;
-import be.digitalia.fosdem.model.Person;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.adapters.EventsAdapter;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.SimpleCursorLoader;
+import me.osorio.eurobsd.model.Person;
 
 public class PersonInfoListFragment extends RecyclerViewFragment implements LoaderCallbacks<Cursor> {
 
@@ -58,23 +58,6 @@ public class PersonInfoListFragment extends RecyclerViewFragment implements Load
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		switch (item.getItemId()) {
-			case R.id.more_info:
-				String url = person.getUrl();
-				if (url != null) {
-					try {
-						Activity context = getActivity();
-						new CustomTabsIntent.Builder()
-								.setToolbarColor(ContextCompat.getColor(context, R.color.color_primary))
-								.setStartAnimations(context, R.anim.slide_in_right, R.anim.slide_out_left)
-								.setExitAnimations(context, R.anim.slide_in_left, R.anim.slide_out_right)
-								.build()
-								.launchUrl(context, Uri.parse(url));
-					} catch (ActivityNotFoundException ignore) {
-					}
-				}
-				return true;
-		}
 		return false;
 	}
 

@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -13,8 +13,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.activities.RoomImageDialogActivity;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.activities.RoomImageDialogActivity;
 
 public class RoomImageDialogFragment extends DialogFragment {
 

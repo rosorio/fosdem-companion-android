@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -20,11 +20,11 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.GlobalCacheLoader;
-import be.digitalia.fosdem.model.Day;
-import be.digitalia.fosdem.widgets.SlidingTabLayout;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.GlobalCacheLoader;
+import me.osorio.eurobsd.model.Day;
+import me.osorio.eurobsd.widgets.SlidingTabLayout;
 
 public class TracksFragment extends Fragment implements RecycledViewPoolProvider, LoaderCallbacks<List<Day>> {
 

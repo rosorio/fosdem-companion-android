@@ -24,7 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textIsSelectable="true"
-                tools:text="Welcome to FOSDEM"/>
+                tools:text="Welcome to EuroBSDCon"/>
 
             <TextView
                 android:id="@+id/subtitle"
@@ -97,7 +97,7 @@
             android:padding="@dimen/content_margin"
             android:saveEnabled="false"
             android:textIsSelectable="true"
-            tools:text="Welcome to FOSDEM 2015!"/>
+            tools:text="Welcome to EuroBSDCon 2017!"/>
 
         <TextView
             android:id="@+id/links_header"

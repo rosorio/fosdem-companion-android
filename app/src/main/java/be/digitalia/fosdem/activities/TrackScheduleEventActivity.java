@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.database.Cursor;
 import android.os.Bundle;
@@ -16,16 +16,16 @@ import android.view.MenuItem;
 
 import com.viewpagerindicator.UnderlinePageIndicator;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.fragments.EventDetailsFragment;
-import be.digitalia.fosdem.loaders.TrackScheduleLoader;
-import be.digitalia.fosdem.model.Day;
-import be.digitalia.fosdem.model.Track;
-import be.digitalia.fosdem.utils.NfcUtils;
-import be.digitalia.fosdem.utils.NfcUtils.CreateNfcAppDataCallback;
-import be.digitalia.fosdem.utils.ThemeUtils;
-import be.digitalia.fosdem.widgets.ContentLoadingProgressBar;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.fragments.EventDetailsFragment;
+import me.osorio.eurobsd.loaders.TrackScheduleLoader;
+import me.osorio.eurobsd.model.Day;
+import me.osorio.eurobsd.model.Track;
+import me.osorio.eurobsd.utils.NfcUtils;
+import me.osorio.eurobsd.utils.NfcUtils.CreateNfcAppDataCallback;
+import me.osorio.eurobsd.utils.ThemeUtils;
+import me.osorio.eurobsd.widgets.ContentLoadingProgressBar;
 
 /**
  * Event view of the track schedule; allows to slide between events of the same track using a ViewPager.

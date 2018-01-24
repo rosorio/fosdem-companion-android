@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
@@ -13,9 +13,9 @@ import android.text.TextUtils;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.api.FosdemUrls;
-import be.digitalia.fosdem.utils.StringUtils;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.api.FosdemUrls;
+import me.osorio.eurobsd.utils.StringUtils;
 
 /**
  * A special Activity which is displayed like a dialog and shows a room image.

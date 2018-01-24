@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.model;
+package me.osorio.eurobsd.model;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
@@ -7,7 +7,7 @@ import java.util.Locale;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import be.digitalia.fosdem.utils.DateUtils;
+import me.osorio.eurobsd.utils.DateUtils;
 
 public class Day implements Parcelable {
 

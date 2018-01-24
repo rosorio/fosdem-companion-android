@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package be.digitalia.fosdem.widgets;
+package me.osorio.eurobsd.widgets;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -28,7 +28,7 @@ import android.support.v7.widget.LinearLayoutCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 
-import be.digitalia.fosdem.R;
+import me.osorio.eurobsd.R;
 
 public class ForegroundLinearLayout extends LinearLayoutCompat {
 

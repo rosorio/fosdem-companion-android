@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.widgets;
+package me.osorio.eurobsd.widgets;
 
 import android.content.Context;
 import android.support.v4.widget.DrawerLayout;

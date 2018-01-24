@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,11 +16,11 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.adapters.BookmarksAdapter;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.SimpleCursorLoader;
-import be.digitalia.fosdem.providers.BookmarksExportProvider;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.adapters.BookmarksAdapter;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.SimpleCursorLoader;
+import me.osorio.eurobsd.providers.BookmarksExportProvider;
 
 /**
  * Bookmarks list, optionally filterable.

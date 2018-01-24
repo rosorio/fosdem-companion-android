@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.parsers;
+package me.osorio.eurobsd.parsers;
 
 import java.io.IOException;
 import java.io.InputStream;

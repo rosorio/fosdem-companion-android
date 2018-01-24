@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.providers;
+package me.osorio.eurobsd.providers;
 
 import android.app.SearchManager;
 import android.content.ContentProvider;
@@ -7,7 +7,7 @@ import android.database.Cursor;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.text.TextUtils;
-import be.digitalia.fosdem.db.DatabaseManager;
+import me.osorio.eurobsd.db.DatabaseManager;
 
 /**
  * Simple content provider responsible for search suggestions.

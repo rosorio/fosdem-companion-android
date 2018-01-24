@@ -1,8 +1,8 @@
-package be.digitalia.fosdem.utils;
+package me.osorio.eurobsd.utils;
 
 import java.nio.charset.Charset;
 
-import be.digitalia.fosdem.utils.NfcUtils.CreateNfcAppDataCallback;
+import me.osorio.eurobsd.utils.NfcUtils.CreateNfcAppDataCallback;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.nfc.NdefMessage;

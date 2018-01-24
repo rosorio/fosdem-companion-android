@@ -1,34 +1,26 @@
-package be.digitalia.fosdem.model;
+package me.osorio.eurobsd.model;
 
 import android.text.TextUtils;
 
 public enum Building {
-	J, K, H, U, AW, Unknown;
+	one, two, three, zero, Unknown;
 
 	public static Building fromRoomName(String roomName) {
-		if (!TextUtils.isEmpty(roomName)) {
-			switch (Character.toUpperCase(roomName.charAt(0))) {
-			case 'K':
-				return K;
-			case 'H':
-				return H;
-			case 'U':
-				return U;
-			}
-			if (roomName.regionMatches(true, 0, "AW", 0, 1)) {
-				return AW;
-			}
-			if ("Janson".equalsIgnoreCase(roomName)) {
-				return J;
-			}
-			if ("Ferrer".equalsIgnoreCase(roomName)) {
-				return H;
-			}
-			if ("Chavanne".equalsIgnoreCase(roomName) || "Lameere".equalsIgnoreCase(roomName) || "Guillissen".equalsIgnoreCase(roomName)) {
-				return U;
-			}
+		if ("Karnak".equalsIgnoreCase(roomName)) {
+			return zero;
 		}
-
+		if ("Auditorium".equalsIgnoreCase(roomName)) {
+			return one;
+		}
+		if ("Louxor".equalsIgnoreCase(roomName)) {
+			return two;
+		}
+		if ("Karnak".equalsIgnoreCase(roomName)) {
+			return three;
+		}
+		if ("Déndarah".equalsIgnoreCase(roomName)) {
+			return three;
+		}
 		return Unknown;
 	}
 }

@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -15,7 +15,7 @@ import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import be.digitalia.fosdem.widgets.ContentLoadingProgressBar;
+import me.osorio.eurobsd.widgets.ContentLoadingProgressBar;
 
 /**
  * Simpler ListFragment using ContentLoadingProgressBar.

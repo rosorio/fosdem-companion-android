@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.providers;
+package me.osorio.eurobsd.providers;
 
 import android.app.Activity;
 import android.content.ContentProvider;
@@ -25,13 +25,13 @@ import java.text.SimpleDateFormat;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import be.digitalia.fosdem.BuildConfig;
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.api.FosdemUrls;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.utils.ICalendarWriter;
-import be.digitalia.fosdem.utils.StringUtils;
+import me.osorio.eurobsd.BuildConfig;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.api.FosdemUrls;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.utils.ICalendarWriter;
+import me.osorio.eurobsd.utils.StringUtils;
 
 /**
  * Content Provider generating the current bookmarks list in iCalendar format.

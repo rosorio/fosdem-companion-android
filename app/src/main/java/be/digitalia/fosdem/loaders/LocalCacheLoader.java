@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.loaders;
+package me.osorio.eurobsd.loaders;
 
 import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;

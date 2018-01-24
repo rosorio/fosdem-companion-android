@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.services;
+package me.osorio.eurobsd.services;
 
 import android.app.AlarmManager;
 import android.app.IntentService;
@@ -24,16 +24,16 @@ import android.text.TextUtils;
 import android.text.format.DateUtils;
 import android.text.style.StyleSpan;
 
-import be.digitalia.fosdem.BuildConfig;
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.activities.EventDetailsActivity;
-import be.digitalia.fosdem.activities.MainActivity;
-import be.digitalia.fosdem.activities.RoomImageDialogActivity;
-import be.digitalia.fosdem.activities.SettingsActivity;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.model.Event;
-import be.digitalia.fosdem.receivers.AlarmReceiver;
-import be.digitalia.fosdem.utils.StringUtils;
+import me.osorio.eurobsd.BuildConfig;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.activities.EventDetailsActivity;
+import me.osorio.eurobsd.activities.MainActivity;
+import me.osorio.eurobsd.activities.RoomImageDialogActivity;
+import me.osorio.eurobsd.activities.SettingsActivity;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.model.Event;
+import me.osorio.eurobsd.receivers.AlarmReceiver;
+import me.osorio.eurobsd.utils.StringUtils;
 
 /**
  * A service to schedule or unschedule alarms in the background, keeping the app responsive.

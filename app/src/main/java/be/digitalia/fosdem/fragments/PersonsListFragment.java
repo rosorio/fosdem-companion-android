@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,11 +15,11 @@ import android.widget.ListView;
 import android.widget.SectionIndexer;
 import android.widget.TextView;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.activities.PersonInfoActivity;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.SimpleCursorLoader;
-import be.digitalia.fosdem.model.Person;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.activities.PersonInfoActivity;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.SimpleCursorLoader;
+import me.osorio.eurobsd.model.Person;
 
 public class PersonsListFragment extends SmoothListFragment implements LoaderCallbacks<Cursor> {
 

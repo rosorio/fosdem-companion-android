@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.preference.ListPreference;
 import android.preference.PreferenceManager;
 import android.view.MenuItem;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.utils.TwoStatePreferenceCompat;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.utils.TwoStatePreferenceCompat;
 
 public class SettingsActivity extends AppCompatPreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener {
 

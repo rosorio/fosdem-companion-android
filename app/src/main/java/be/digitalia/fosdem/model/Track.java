@@ -1,11 +1,11 @@
-package be.digitalia.fosdem.model;
+package me.osorio.eurobsd.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.support.annotation.ColorRes;
 import android.support.annotation.StringRes;
 
-import be.digitalia.fosdem.R;
+import me.osorio.eurobsd.R;
 
 public class Track implements Parcelable {
 
@@ -15,7 +15,12 @@ public class Track implements Parcelable {
 		maintrack(R.string.main_track, R.color.track_type_main, R.color.track_type_main_dark),
 		devroom(R.string.developer_room, R.color.track_type_developer_room, R.color.track_type_developer_room_dark),
 		lightningtalk(R.string.lightning_talk, R.color.track_type_lightning_talk, R.color.track_type_lightning_talk_dark),
-		certification(R.string.certification_exam, R.color.track_type_certification_exam, R.color.track_type_certification_exam_dark);
+		certification(R.string.certification_exam, R.color.track_type_certification_exam, R.color.track_type_certification_exam_dark),
+		freebsd(R.string.freebsd_track, R.color.track_type_free, R.color.track_type_free_dark),
+		netbsd(R.string.netbsd_track, R.color.track_type_net, R.color.track_type_net_dark),
+		openbsd(R.string.openbsd_track, R.color.track_type_open, R.color.track_type_open_dark),
+		dfbsd(R.string.df_track, R.color.track_type_df, R.color.track_type_df_dark),
+		allbsd(R.string.main_track, R.color.track_type_main, R.color.track_type_main_dark);
 
 		private final int nameResId;
 		private final int colorResId;

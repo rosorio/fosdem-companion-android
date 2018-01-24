@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,10 +9,10 @@ import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.adapters.EventsAdapter;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.SimpleCursorLoader;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.adapters.EventsAdapter;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.SimpleCursorLoader;
 
 public class SearchResultListFragment extends RecyclerViewFragment implements LoaderCallbacks<Cursor> {
 

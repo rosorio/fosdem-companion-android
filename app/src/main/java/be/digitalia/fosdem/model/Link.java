@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.model;
+package me.osorio.eurobsd.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;

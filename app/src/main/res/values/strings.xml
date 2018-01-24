@@ -1,6 +1,6 @@
 <resources>
 
-    <string name="app_name">FOSDEM Companion</string>
+    <string name="app_name">EuroBSDCon Companion</string>
 
     <!-- Main screen -->
     <string name="main_menu">Main menu</string>
@@ -29,7 +29,7 @@
     <string name="filter">Filter</string>
     <string name="upcoming_only">Upcoming only</string>
     <string name="export_bookmarks">Export bookmarks</string>
-    <string name="export_bookmarks_file_name">FOSDEM %1$d bookmarks.ics</string>
+    <string name="export_bookmarks_file_name">EuroBSDCon %1$d bookmarks.ics</string>
     <string name="no_bookmark">No bookmark.</string>
     <string name="remove_bookmarks">Remove bookmarks</string>
     <string name="bookmark_conflict_content_description">%1$s\n Other bookmarks are scheduled at the same time.</string>
@@ -40,14 +40,18 @@
 
     <!-- Live -->
     <string name="next">Next</string>
-    <string name="next_empty">During FOSDEM, the events to come in the next 30 minutes will be shown here.</string>
+    <string name="next_empty">During EuroBSDCon, the events to come in the next 30 minutes will be shown here.</string>
     <string name="now">Now</string>
-    <string name="now_empty">During FOSDEM, the events in progress will be shown here.</string>
+    <string name="now_empty">During EuroBSDCon , the events in progress will be shown here.</string>
 
     <!-- Track types -->
     <string name="other">Other</string>
     <string name="keynote">Keynote</string>
     <string name="main_track">Main track</string>
+    <string name="freebsd_track">FreeBSD track</string>
+    <string name="netbsd_track">NetBSD track</string>
+    <string name="openbsd_track">OpenBSD track</string>
+    <string name="df_track">Dragonflys track</string>
     <string name="developer_room">Developer room</string>
     <string name="lightning_talk">Lightning talk</string>
     <string name="certification_exam">Certification Exam</string>
@@ -122,10 +126,9 @@
     <string name="navigation">On-site navigation</string>
     <string name="no_data">No data available.</string>
     <string name="about">About</string>
-    <string name="about_text">Programmed by <a href="http://www.digitalia.be/">Christophe Beyls</a>.
+    <string name="about_text">EuroBSD companion lazily adapted from Fosdem Companion programmed by <a href="http://www.digitalia.be/">Christophe Beyls</a>.
 \n
 \nLicensed under the Apache License, version 2.0. Source available on <a href="https://github.com/cbeyls/fosdem-companion-android">GitHub</a>.
-\nThe name FOSDEM and the gear logo are registered trademarks of FOSDEM VZW.  Used with permission.
 \n
 \n<small>This application makes use of the following libraries:
 \n- <a href="http://developer.android.com/tools/support-library/">Android Support Library</a><i> by The Android Open Source Project</i>\n- <a href="http://viewpagerindicator.com/">ViewPagerIndicator</a><i> by Jake Wharton</i>\n- <a href="https://github.com/chrisbanes/PhotoView">PhotoView</a><i> by Chris Banes</i></small></string>

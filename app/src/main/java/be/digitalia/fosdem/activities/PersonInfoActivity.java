@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.activities;
+package me.osorio.eurobsd.activities;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -8,9 +8,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.fragments.PersonInfoListFragment;
-import be.digitalia.fosdem.model.Person;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.fragments.PersonInfoListFragment;
+import me.osorio.eurobsd.model.Person;
 
 public class PersonInfoActivity extends AppCompatActivity {
 

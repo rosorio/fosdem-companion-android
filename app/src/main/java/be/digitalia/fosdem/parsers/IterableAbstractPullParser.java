@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.parsers;
+package me.osorio.eurobsd.parsers;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

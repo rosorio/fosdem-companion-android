@@ -5,7 +5,7 @@ import android.preference.PreferenceManager;
 import me.osorio.eurobsd.alarms.FosdemAlarmManager;
 import me.osorio.eurobsd.db.DatabaseManager;
 
-public class FosdemApplication extends Application {
+public class EuroBSDApplication extends Application {
 
 	@Override
 	public void onCreate() {

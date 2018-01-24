@@ -1,4 +1,4 @@
-package be.digitalia.fosdem.fragments;
+package me.osorio.eurobsd.fragments;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,13 +16,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import be.digitalia.fosdem.R;
-import be.digitalia.fosdem.activities.TrackScheduleActivity;
-import be.digitalia.fosdem.adapters.RecyclerViewCursorAdapter;
-import be.digitalia.fosdem.db.DatabaseManager;
-import be.digitalia.fosdem.loaders.SimpleCursorLoader;
-import be.digitalia.fosdem.model.Day;
-import be.digitalia.fosdem.model.Track;
+import me.osorio.eurobsd.R;
+import me.osorio.eurobsd.activities.TrackScheduleActivity;
+import me.osorio.eurobsd.adapters.RecyclerViewCursorAdapter;
+import me.osorio.eurobsd.db.DatabaseManager;
+import me.osorio.eurobsd.loaders.SimpleCursorLoader;
+import me.osorio.eurobsd.model.Day;
+import me.osorio.eurobsd.model.Track;
 
 public class TracksListFragment extends RecyclerViewFragment implements LoaderCallbacks<Cursor> {
 
